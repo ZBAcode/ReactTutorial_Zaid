@@ -1,18 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './Navbar';
+import Home from './Home';
+
 
 function App() {
-  const title="welcome to new blog"
+
 
   return (
     <div className="App">
-      <div className="container">
-        <h1> {title} </h1>
-        <p>10</p>
-        <p>"hello ninjas</p>
-        <p>Math.random() * 10
-          
-        </p>
+      <Navbar/>
+      <div className="content">
+    <Home/>        
+
+        
         
       </div>
     </div>
